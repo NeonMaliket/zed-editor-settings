@@ -1,7 +1,9 @@
 {
+   "buffer_font_family": "Monaco",
+   "base_keymap": "JetBrains",
    "tab_size": 3,
-   "auto_signature_help": true,
-   "show_signature_help_after_edits": true,
+   "auto_signature_help": false,
+   "show_signature_help_after_edits": false,
    "context_servers": {
       "dart": {
          "source": "custom",
