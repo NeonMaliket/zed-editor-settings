@@ -8,9 +8,9 @@
    "theme_overrides": {
       "VScode Dark Plus": {
          "editor.background": "#212121",
+         "panel.background": "#212121",
          "hint.background": "#171717",
          "warning.background": "#171717",
-         "panel.background": "#212121",
          "syntax": {
             "comment": {
                "font_style": "italic"
@@ -39,7 +39,7 @@
                "font_weight": null
             },
             "punctuation.delimiter": {
-               "color": "#479151",
+               "color": "#e0bc43",
                "font_style": null,
                "font_weight": null
             },
