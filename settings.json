@@ -1,16 +1,48 @@
 {
+   "base_keymap": "JetBrains",
    "cursor_blink": true,
    "ui_font_weight": 400.0,
    "ui_font_family": ".ZedSans",
    "buffer_font_weight": 400.0,
    "buffer_font_family": "Monaco",
-   "base_keymap": "JetBrains",
+   "theme_overrides": {
+      "VScode Dark Plus": {
+         "editor.background": "#212121",
+         "warning.background": "#171717",
+         "panel.background": "#212121",
+         "syntax": {
+            "comment": {
+               "font_style": "italic"
+            },
+            "comment.doc": {
+               "font_style": "italic"
+            },
+            "attribute": {
+               "color": "#74ade8ff",
+               "font_style": null,
+               "font_weight": null
+            },
+            "punctuation.delimiter": {
+               "color": "#479151",
+               "font_style": null,
+               "font_weight": null
+            },
+         },
+         "accents": [
+            "#ff0000",
+            "#ff7f00",
+            "#ffff00",
+            "#00ff00",
+            "#0000ff",
+            "#8b00ff"
+         ],
+      }
+   },
    "tab_size": 3,
    "auto_signature_help": false,
    "show_signature_help_after_edits": false,
    "context_servers": {
       "dart": {
-         "source": "custom",
          "command": "dart",
          "args": [
             "mcp-server"
@@ -18,17 +50,18 @@
       }
    },
    "agent": {
+      "always_allow_tool_actions": true,
       "inline_assistant_model": {
          "provider": "copilot_chat",
          "model": "gpt-4.1"
       },
       "default_model": {
          "provider": "copilot_chat",
-         "model": "gpt-4.1"
+         "model": "claude-sonnet-4"
       }
    },
    "icon_theme": {
-      "mode": "dark",
+      "mode": "system",
       "light": "Material Icon Theme",
       "dark": "Material Icon Theme"
    },
@@ -45,6 +78,13 @@
          "show_edit_predictions": true,
          "code_actions_on_format": {
             "source.organizeImports": true
+         }
+      },
+      "Rust": {
+         "show_edit_predictions": true,
+         "code_actions_on_format": {
+            "source.fixAll.eslint": true,
+            "source.removeUnusedImports": true
          }
       },
       "JavaScript": {
@@ -82,6 +122,13 @@
       "current_line_highlight": "line"
    },
    "lsp": {
+      "rust-analyzer": {
+         "initialization_options": {
+            "check": {
+               "command": "clippy"
+            }
+         }
+      },
       "dart": {
          "settings": {
             "lineLength": 70
