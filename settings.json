@@ -8,6 +8,7 @@
    "theme_overrides": {
       "VScode Dark Plus": {
          "editor.background": "#212121",
+         "hint.background": "#171717",
          "warning.background": "#171717",
          "panel.background": "#212121",
          "syntax": {
@@ -19,6 +20,21 @@
             },
             "attribute": {
                "color": "#74ade8ff",
+               "font_style": null,
+               "font_weight": null
+            },
+            "punctuation.markup": {
+               "color": "#d07277ff",
+               "font_style": null,
+               "font_weight": null
+            },
+            "punctuation.special": {
+               "color": "#b1574bff",
+               "font_style": null,
+               "font_weight": null
+            },
+            "punctuation.bracket": {
+               "color": "#e0bc43",
                "font_style": null,
                "font_weight": null
             },
