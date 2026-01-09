@@ -1,4 +1,11 @@
 {
+   "preferred_line_length": 100,
+   "soft_wrap": "preferred_line_length",
+   "show_wrap_guides": true,
+   "wrap_guides": [
+      100
+   ],
+   "max_tabs": 5,
    "base_keymap": "JetBrains",
    "cursor_blink": true,
    "ui_font_weight": 400.0,
@@ -73,7 +80,7 @@
       },
       "default_model": {
          "provider": "copilot_chat",
-         "model": "gpt-5-mini"
+         "model": "gpt-4.1"
       }
    },
    "icon_theme": {
