@@ -210,12 +210,6 @@
             "font_style": null,
             "font_weight": null
          }
-      },
-      "accents": [
-         "#ff7f00",
-         "#ff0000",
-         "#009e00",
-         "#010000"
-      ]
+      }
    }
 }
