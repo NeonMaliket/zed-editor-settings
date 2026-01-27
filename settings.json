@@ -170,7 +170,7 @@
       "env": {}
    },
    "experimental.theme_overrides": {
-      "background.appearance": "transparent",
+      "background.appearance": "opaque",
       "editor.background": "#212121B5",
       "panel.background": "#212121B5",
       "hint.background": "#171717B5",
