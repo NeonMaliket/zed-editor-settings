@@ -1,5 +1,6 @@
 {
    "theme": "VScode Dark Plus",
+   "disable_ai": false,
    "preferred_line_length": 100,
    "soft_wrap": "preferred_line_length",
    "show_wrap_guides": true,
@@ -154,7 +155,6 @@
       "tab": "→"
    },
    "show_completions_on_input": true,
-   "disable_ai": false,
    "tab_bar": {
       "show": true,
       "show_nav_history_buttons": false,
@@ -188,6 +188,11 @@
          },
          "variable": {
             "color": "#d6d6d6",
+            "font_style": null,
+            "font_weight": null
+         },
+         "operator": {
+            "color": "#b35204",
             "font_style": null,
             "font_weight": null
          },
