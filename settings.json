@@ -167,10 +167,7 @@
    },
    "show_edit_predictions": true,
    "terminal": {
-      // Environment variables to add to terminal's process environment
-      "env": {
-         // "KEY": "value"
-      }
+      "env": {}
    },
    "experimental.theme_overrides": {
       "background.appearance": "transparent",
