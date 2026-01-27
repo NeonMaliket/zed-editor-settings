@@ -101,6 +101,14 @@
          "initialization_options": {
             "check": {
                "command": "clippy"
+            },
+            "cargo": {
+               "buildScripts": {
+                  "enable": true
+               }
+            },
+            "procMacro": {
+               "enable": true
             }
          }
       },
