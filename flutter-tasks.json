@@ -1,0 +1,73 @@
+[
+   {
+      "label": "[1] - Run on macOS",
+      "command": "flutter",
+      "args": [
+         "run",
+         "-d",
+         "macos"
+      ]
+   },
+   {
+      "label": "[2] - Run on iOS Simulator",
+      "command": "flutter",
+      "args": [
+         "run",
+         "-d",
+         "ios"
+      ]
+   },
+   {
+      "label": "[3] - Run on Web",
+      "command": "flutter",
+      "args": [
+         "run",
+         "-d",
+         "web-server",
+         "--web-port",
+         "3000"
+      ]
+   },
+   {
+      "label": "[4] - Build macOS",
+      "command": "flutter",
+      "args": [
+         "build",
+         "macos",
+         "--release"
+      ]
+   },
+   {
+      "label": "[5] - Build iOS",
+      "command": "flutter",
+      "args": [
+         "build",
+         "ios",
+         "--release"
+      ]
+   },
+   {
+      "label": "[6] - Build Web",
+      "command": "flutter",
+      "args": [
+         "build",
+         "web",
+         "--release"
+      ]
+   },
+   {
+      "label": "[7] - Flutter Clean",
+      "command": "flutter",
+      "args": [
+         "clean"
+      ]
+   },
+   {
+      "label": "[8] - Pub Get",
+      "command": "flutter",
+      "args": [
+         "pub",
+         "get"
+      ]
+   }
+]
