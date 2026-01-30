@@ -16,7 +16,7 @@
    "buffer_font_family": "Monaco",
    "tab_size": 3,
    "auto_signature_help": false,
-   "show_signature_help_after_edits": true,
+   "show_signature_help_after_edits": false,
    "context_servers": {
       "dart": {
          "command": "dart",
@@ -33,7 +33,7 @@
       },
       "default_model": {
          "provider": "copilot_chat",
-         "model": "gpt-4.1"
+         "model": "gpt-5-mini"
       }
    },
    "icon_theme": {
