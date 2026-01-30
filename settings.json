@@ -1,6 +1,7 @@
 {
    "theme": "VScode Dark Plus",
    "disable_ai": false,
+   "lsp_document_colors": "inlay",
    "preferred_line_length": 100,
    "soft_wrap": "preferred_line_length",
    "show_wrap_guides": true,
@@ -143,14 +144,13 @@
    "inlay_hints": {
       "enabled": true,
       "show_type_hints": false,
-      "show_parameter_hints": true,
+      "show_parameter_hints": false,
       "show_other_hints": false,
       "show_background": false,
       "edit_debounce_ms": 0,
       "scroll_debounce_ms": 50,
       "toggle_on_modifiers_press": null
    },
-   "lsp_document_colors": "background",
    "completions": {
       "words": "fallback",
       "words_min_length": 0,
@@ -179,10 +179,11 @@
    },
    "experimental.theme_overrides": {
       "background.appearance": "opaque",
-      "editor.background": "#212121B5",
-      "panel.background": "#212121B5",
-      "hint.background": "#171717B5",
-      "warning.background": "#171717B5",
+      "editor.background": "#212121",
+      "panel.background": "#212121",
+      "hint.background": "#c2c2c200",
+      "warning.background": "#40390b",
+      "info.background": "#1f273d",
       "syntax": {
          "keyword": {
             "color": "#6388d4",
