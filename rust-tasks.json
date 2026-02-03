@@ -1,5 +1,14 @@
 [
    {
+      "label": "[0] - Run (cargo fix)",
+      "command": "cargo",
+      "args": [
+         "fix",
+         "--allow-dirty",
+         "--allow-staged"
+      ]
+   },
+   {
       "label": "[1] - Run (cargo run)",
       "command": "cargo",
       "args": [
