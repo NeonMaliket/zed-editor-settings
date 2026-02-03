@@ -34,7 +34,7 @@
       },
       "default_model": {
          "provider": "copilot_chat",
-         "model": "gpt-5-mini"
+         "model": "claude-sonnet-4"
       }
    },
    "icon_theme": {
@@ -57,8 +57,11 @@
          }
       },
       "Rust": {
+         "formatter": "language_server",
+         "format_on_save": "on",
          "show_edit_predictions": true,
          "code_actions_on_format": {
+            "source.organizeImports": true,
             "source.fixAll.eslint": true,
             "source.removeUnusedImports": true
          }
@@ -99,7 +102,11 @@
    },
    "lsp": {
       "rust-analyzer": {
+         "enable_lsp_tasks": true,
          "initialization_options": {
+            "closureReturnTypeHints": {
+               "enable": "always"
+            },
             "check": {
                "command": "clippy"
             },
@@ -143,7 +150,7 @@
    "formatter": "language_server",
    "inlay_hints": {
       "enabled": true,
-      "show_type_hints": false,
+      "show_type_hints": true,
       "show_parameter_hints": false,
       "show_other_hints": false,
       "show_background": false,
