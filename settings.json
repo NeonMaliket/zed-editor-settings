@@ -1,6 +1,7 @@
 {
    "theme": "VScode Dark Plus",
    "disable_ai": true,
+   "show_completions_on_input": true,
    "lsp_document_colors": "inlay",
    "preferred_line_length": 100,
    "soft_wrap": "preferred_line_length",
@@ -149,9 +150,6 @@
          }
       }
    },
-   "features": {
-      "edit_prediction_provider": "copilot"
-   },
    "formatter": "language_server",
    "inlay_hints": {
       "enabled": true,
@@ -174,7 +172,6 @@
       "space": "•",
       "tab": "→"
    },
-   "show_completions_on_input": true,
    "tab_bar": {
       "show": true,
       "show_nav_history_buttons": false,
@@ -182,6 +179,7 @@
    },
    "colorize_brackets": true,
    "edit_predictions": {
+      "provider": "copilot",
       "mode": "eager",
       "enabled_in_text_threads": true
    },
