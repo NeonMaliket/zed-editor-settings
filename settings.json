@@ -1,6 +1,11 @@
 {
+   "agent_servers": {
+      "claude-acp": {
+         "type": "registry"
+      }
+   },
    "theme": "VScode Dark Plus",
-   "disable_ai": true,
+   "disable_ai": false,
    "show_completions_on_input": true,
    "lsp_document_colors": "inlay",
    "preferred_line_length": 100,
@@ -29,7 +34,9 @@
       }
    },
    "agent": {
-      "always_allow_tool_actions": true,
+      "tool_permissions": {
+         "default": "allow"
+      },
       "inline_assistant_model": {
          "provider": "copilot_chat",
          "model": "gpt-4.1"
@@ -128,6 +135,9 @@
       },
       "dart": {
          "settings": {
+            "inlay_hints": {
+               "enabled": false
+            },
             "lineLength": 70
          }
       },
