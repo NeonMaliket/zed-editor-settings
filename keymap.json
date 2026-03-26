@@ -13,6 +13,14 @@
       },
    },
    {
+      "context": "Editor",
+      "bindings": {
+         "cmd-p": "editor::ShowSignatureHelp",
+         "cmd-`": "editor::ShowCompletions",
+         "cmd-alt-l": "editor::Format"
+      }
+   },
+   {
       "context": "Editor && vim_mode == insert",
       "bindings": {
          // "j k": "vim::NormalBefore"
