@@ -69,5 +69,19 @@
          "pub",
          "get"
       ]
+   },
+   {
+      "label": "[gen] - build_runner watch",
+      "command": "dart run build_runner watch --delete-conflicting-outputs",
+      "use_new_terminal": false,
+      "allow_concurrent_runs": false,
+      "reveal": "always"
+   },
+   {
+      "label": "[fluttergen] - fluttergen",
+      "command": "fluttergen",
+      "use_new_terminal": false,
+      "allow_concurrent_runs": false,
+      "reveal": "always"
    }
 ]
