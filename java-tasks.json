@@ -1,0 +1,21 @@
+[
+  {
+    "label": "Run App",
+    "command": "mvn",
+    "args": ["compile", "exec:java", "-Dexec.mainClass=com.training.App"],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["java-run"]
+  },
+  {
+    "label": "Run Tests",
+    "command": "mvn",
+    "args": ["test"],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
