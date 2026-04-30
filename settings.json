@@ -180,6 +180,320 @@
             },
          },
       },
+      "jdtls": {
+         "enable_lsp_tasks": true,
+         "settings": {
+            "java_home": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
+            "lombok_support": true,
+         },
+      },
+   },
+   "formatter": "language_server",
+   "inlay_hints": {
+      "enabled": true,
+      "show_type_hints": true,
+      "show_parameter_hints": false,
+      "show_other_hints": false,
+      "show_background": false,
+      "edit_debounce_ms": 0,
+      "scroll_debounce_ms": 50,
+      "toggle_on_modifiers_press": null,
+   },
+   "completions": {
+      "words": "fallback",
+      "words_min_length": 0,
+      "lsp": true,
+      "lsp_fetch_timeout_ms": 0,
+      "lsp_insert_mode": "replace_suffix",
+   },
+   "whitespace_map": {
+      "space": "•",
+      "tab": "→",
+   },
+   "tab_bar": {
+      "show": true,
+      "show_nav_history_buttons": false,
+      "show_tab_bar_buttons": false,
+   },
+   "colorize_brackets": true,
+   "edit_predictions": {
+      "provider": "copilot",
+      "mode": "eager",
+   },
+   "show_edit_predictions": true,
+   "terminal": {
+      "env": {},
+   },
+   "experimental.theme_overrides": {
+      "background.appearance": "opaque",
+      "editor.background": "#212121",
+      "panel.background": "#212121",
+      "hint.background": "#c2c2c200",
+      "warning.background": "#40390b",
+      "info.background": "#1f273d",
+      "syntax": {
+         "keyword": {
+            "color": "#6388d4",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "function": {
+            "color": "#ffc400",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "variable": {
+            "color": "#d6d6d6",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "operator": {
+            "color": "#b35204",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "type": {
+            "color": "#02b576",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "comment": {
+            "font_style": "italic",
+         },
+         "comment.doc": {
+            "font_style": "italic",
+         },
+         "attribute": {
+            "color": "#02b047",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.markup": {
+            "color": "#d07277ff",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.special": {
+            "color": "#b1574bff",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.bracket": {
+            "color": "#e0bc43",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.delimiter": {
+            "color": "#e0bc43",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "blur_effects": {
+            "background_color": "#212121B5",
+            "color": "#00000000",
+         },
+      },
+   },
+   "auto_install_extensions": {
+      "dart": true,
+      "deno": true,
+      "flutter-snippets": true,
+      "git-firefly": true,
+      "html": true,
+      "java": true,
+      "java-eclipse-jdtls": true,
+      "material-icon-theme": true,
+      "mcp-server-context7": true,
+      "mcp-server-mui": true,
+      "mcp-server-playwright": true,
+      "sql": true,
+      "toml": true,
+      "vscode-dark-plus": true,
+      "xml": true
+   }
+}
+{
+   "disable_ai": false,
+   "show_completions_on_input": true,
+   "cli_default_open_behavior": "existing_window",
+   "project_panel": {
+      "dock": "left"
+   },
+   "outline_panel": {
+      "dock": "left"
+   },
+   "collaboration_panel": {
+      "dock": "left"
+   },
+   "agent_servers": {
+      "claude-acp": {
+         "type": "registry",
+      },
+   },
+   "theme": "VScode Dark Plus",
+   "lsp_document_colors": "inlay",
+   "preferred_line_length": 100,
+   "soft_wrap": "prefer_line",
+   "show_wrap_guides": true,
+   "git_panel": {
+      "dock": "left",
+      "show_count_badge": true,
+   },
+   "wrap_guides": [
+      100
+   ],
+   "max_tabs": 5,
+   "base_keymap": "JetBrains",
+   "cursor_blink": true,
+   "ui_font_weight": 400.0,
+   "ui_font_family": ".ZedSans",
+   "buffer_font_weight": 400.0,
+   "buffer_font_family": "Monaco",
+   "tab_size": 3,
+   "auto_signature_help": false,
+   "show_signature_help_after_edits": false,
+   "format_on_save": "on",
+   "context_servers": {
+      "dart": {
+         "command": "dart",
+         "args": [
+            "mcp-server"
+         ],
+      },
+   },
+   "agent": {
+      "dock": "right",
+      "tool_permissions": {
+         "default": "allow",
+      },
+      "inline_assistant_model": {
+         "provider": "copilot_chat",
+         "model": "gpt-5.2",
+      },
+      "default_model": {
+         "effort": "high",
+         "enable_thinking": true,
+         "provider": "copilot_chat",
+         "model": "claude-sonnet-4.6",
+      },
+   },
+   "icon_theme": {
+      "mode": "system",
+      "light": "Material Icon Theme",
+      "dark": "Material Icon Theme",
+   },
+   "ui_font_size": 20.0,
+   "buffer_font_size": 18.0,
+   "autosave": {
+      "after_delay": {
+         "milliseconds": 1000,
+      },
+   },
+   "languages": {
+      "Dart": {
+         "show_edit_predictions": false,
+         "code_actions_on_format": {
+            "source.organizeImports": true,
+         },
+      },
+      "Rust": {
+         "formatter": "language_server",
+         "show_edit_predictions": true,
+         "code_actions_on_format": {
+            "source.organizeImports": true,
+            "source.removeUnusedImports": true,
+         },
+      },
+      "JavaScript": {
+         "language_servers": [
+            "deno",
+            "!typescript-language-server",
+            "!vtsls",
+            "!eslint",
+         ],
+         "formatter": "language_server",
+      },
+      "TypeScript": {
+         "language_servers": [
+            "deno",
+            "!typescript-language-server",
+            "!vtsls",
+            "!eslint",
+         ],
+         "formatter": "language_server",
+      },
+      "TSX": {
+         "language_servers": [
+            "deno",
+            "!typescript-language-server",
+            "!vtsls",
+            "!eslint",
+         ],
+         "formatter": "language_server",
+      },
+      "Java": {
+         "format_on_save": "on",
+         "tab_size": 4
+      }
+   },
+   "current_line_highlight": "line",
+   "hide_mouse": "on_typing",
+   "snippet_sort_order": "bottom",
+   "minimap": {
+      "current_line_highlight": "line",
+   },
+   "lsp": {
+      "rust-analyzer": {
+         "enable_lsp_tasks": true,
+         "initialization_options": {
+            "imports": {
+               "granularity": {
+                  "group": "module",
+               },
+               "prefix": "self",
+            },
+            "closureReturnTypeHints": {
+               "enable": "always",
+            },
+            "check": {
+               "command": "clippy",
+            },
+            "cargo": {
+               "buildScripts": {
+                  "enable": true,
+               },
+            },
+            "procMacro": {
+               "enable": true,
+            },
+         },
+      },
+      "dart": {
+         "settings": {
+            "lineLength": 70,
+         },
+         "initialization_options": {
+            "closingLabels": false,
+         },
+      },
+      "deno": {
+         "settings": {
+            "deno": {
+               "enable": false,
+               "lint": true,
+               "unstable": true,
+               "suggest": {
+                  "imports": {
+                     "hosts": {
+                        "https://deno.land": true,
+                        "https://esm.sh": true,
+                        "npm:": true,
+                     },
+                  },
+               },
+            },
+         },
+      },
    },
    "formatter": "language_server",
    "inlay_hints": {
