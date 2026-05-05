@@ -1,5 +1,5 @@
 {
-   "theme": "New Darcula",
+   "theme": "One Dark",
    "disable_ai": false,
    "diff_view_style": "unified",
    "show_completions_on_input": true,
@@ -223,32 +223,60 @@
    },
    "show_edit_predictions": true,
    "terminal": {
+      "font_weight": 500.0,
+      "font_size": 18.0,
       "env": {},
    },
    "experimental.theme_overrides": {
+      "terminal.foreground": "#3c3c3c",
       "syntax": {
          "keyword": {
-            "color": "#6388d4",
+            "color": "#566b96",
             "font_style": null,
             "font_weight": null,
          },
          "function": {
-            "color": "#ffc400",
+            "color": "#ad8d1e",
             "font_style": null,
             "font_weight": null,
          },
          "variable": {
-            "color": "#d6d6d6",
+            "color": "#836043",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "property": {
+            "color": "#836043",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "namespace": {
+            "color": "#836043",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "module": {
+            "color": "#836043",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "string": {
+            "color": "#6e785a",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "lifetime": {
+            "color": "#834d21",
             "font_style": null,
             "font_weight": null,
          },
          "operator": {
-            "color": "#b35204",
+            "color": "#834d21",
             "font_style": null,
             "font_weight": null,
          },
          "type": {
-            "color": "#02b576",
+            "color": "#208461",
             "font_style": null,
             "font_weight": null,
          },
@@ -259,27 +287,27 @@
             "font_style": "italic",
          },
          "attribute": {
-            "color": "#02b047",
+            "color": "#208246",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.markup": {
-            "color": "#d07277ff",
+            "color": "#935e62ff",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.special": {
-            "color": "#b1574bff",
+            "color": "#814f49ff",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.bracket": {
-            "color": "#e0bc43",
+            "color": "#9c8844",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.delimiter": {
-            "color": "#e0bc43",
+            "color": "#9c8844",
             "font_style": null,
             "font_weight": null,
          },
@@ -301,7 +329,6 @@
       "mcp-server-context7": true,
       "mcp-server-mui": true,
       "mcp-server-playwright": true,
-      "new-darcula": true,
       "sql": true,
       "toml": true,
       "vscode-dark-plus": true,
