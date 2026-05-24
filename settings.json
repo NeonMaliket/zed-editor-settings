@@ -1,7 +1,6 @@
 {
-   "theme": "One Dark",
-   "disable_ai": false,
    "diff_view_style": "unified",
+   "disable_ai": false,
    "show_completions_on_input": true,
    "cli_default_open_behavior": "existing_window",
    "project_panel": {
@@ -15,9 +14,10 @@
    },
    "agent_servers": {
       "claude-acp": {
-         "type": "registry"
-      }
+         "type": "registry",
+      },
    },
+   "theme": "VScode Dark Plus",
    "lsp_document_colors": "inlay",
    "preferred_line_length": 100,
    "soft_wrap": "prefer_line",
@@ -223,60 +223,41 @@
    },
    "show_edit_predictions": true,
    "terminal": {
-      "font_weight": 500.0,
-      "font_size": 18.0,
-      "env": {},
+      "env": {
+         "LIBTORCH": "/opt/homebrew/opt/pytorch",
+         "DYLD_LIBRARY_PATH": "/opt/homebrew/opt/pytorch/lib"
+      },
    },
    "experimental.theme_overrides": {
-      "terminal.foreground": "#3c3c3c",
+      "background.appearance": "opaque",
+      "editor.background": "#212121",
+      "panel.background": "#212121",
+      "hint.background": "#c2c2c200",
+      "warning.background": "#40390b",
+      "info.background": "#1f273d",
       "syntax": {
          "keyword": {
-            "color": "#566b96",
+            "color": "#6388d4",
             "font_style": null,
             "font_weight": null,
          },
          "function": {
-            "color": "#ad8d1e",
+            "color": "#ffc400",
             "font_style": null,
             "font_weight": null,
          },
          "variable": {
-            "color": "#836043",
-            "font_style": null,
-            "font_weight": null,
-         },
-         "property": {
-            "color": "#836043",
-            "font_style": null,
-            "font_weight": null,
-         },
-         "namespace": {
-            "color": "#836043",
-            "font_style": null,
-            "font_weight": null,
-         },
-         "module": {
-            "color": "#836043",
-            "font_style": null,
-            "font_weight": null,
-         },
-         "string": {
-            "color": "#6e785a",
-            "font_style": null,
-            "font_weight": null,
-         },
-         "lifetime": {
-            "color": "#834d21",
+            "color": "#d6d6d6",
             "font_style": null,
             "font_weight": null,
          },
          "operator": {
-            "color": "#834d21",
+            "color": "#b35204",
             "font_style": null,
             "font_weight": null,
          },
          "type": {
-            "color": "#208461",
+            "color": "#02b576",
             "font_style": null,
             "font_weight": null,
          },
@@ -287,32 +268,32 @@
             "font_style": "italic",
          },
          "attribute": {
-            "color": "#208246",
+            "color": "#02b047",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.markup": {
-            "color": "#935e62ff",
+            "color": "#d07277ff",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.special": {
-            "color": "#814f49ff",
+            "color": "#b1574bff",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.bracket": {
-            "color": "#9c8844",
+            "color": "#e0bc43",
             "font_style": null,
             "font_weight": null,
          },
          "punctuation.delimiter": {
-            "color": "#9c8844",
+            "color": "#e0bc43",
             "font_style": null,
             "font_weight": null,
          },
          "blur_effects": {
-            "background_color": "#2d2d2dB5",
+            "background_color": "#212121B5",
             "color": "#00000000",
          },
       },
