@@ -8,7 +8,8 @@
       "ghost_element.active": "#ffffff26",
       "ghost_element.selected": "#0000004d",
       "element.hover": "#ffffff15",
-      // "modified": "#6a9955",
+      "modified": "#b8a04a",
+      "created": "#6a9955",
       "syntax": {
          "string": {
             "color": "#6a9955",
