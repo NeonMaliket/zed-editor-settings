@@ -235,6 +235,7 @@
    "experimental.theme_overrides": {
       "background.appearance": "blurred",
       "title_bar.background": "#00001199",
+      "status_bar.background": "#00001199",
       "editor.background": "#212121",
       "panel.background": "#212121",
       "hint.background": "#c2c2c200",
