@@ -1,3 +1,75 @@
 {
-  
+  "theme": "VScode Dark Plus",
+   "experimental.theme_overrides": {
+      "background.appearance": "blurred",
+      "title_bar.background": "#00001199",
+      "status_bar.background": "#00001199",
+      "editor.background": "#212121",
+      "panel.background": "#212121",
+      "hint.background": "#c2c2c200",
+      "warning.background": "#40390b",
+      "info.background": "#1f273d",
+      "syntax": {
+         "keyword": {
+            "color": "#6388d4",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "function": {
+            "color": "#ffc400",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "variable": {
+            "color": "#d6d6d6",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "operator": {
+            "color": "#b35204",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "type": {
+            "color": "#02b576",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "comment": {
+            "font_style": "italic",
+         },
+         "comment.doc": {
+            "font_style": "italic",
+         },
+         "attribute": {
+            "color": "#02b047",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.markup": {
+            "color": "#d07277ff",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.special": {
+            "color": "#b1574bff",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.bracket": {
+            "color": "#e0bc43",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "punctuation.delimiter": {
+            "color": "#e0bc43",
+            "font_style": null,
+            "font_weight": null,
+         },
+         "blur_effects": {
+            "background_color": "#212121B5",
+            "color": "#00000000",
+         },
+      },
+   },
 }
