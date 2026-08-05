@@ -432,6 +432,7 @@
       "sql": true,
       "toml": true,
       "vscode-dark-plus": true,
+      "transparent-prism-collection": true,
       "xml": true
    }
 }
