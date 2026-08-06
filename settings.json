@@ -253,6 +253,9 @@
    "profiles": {
       "Transparrent": {
          "settings": {
+            "project_panel": {
+               "sticky_scroll": false,
+            },
             "theme": "Transparent Prism - Frost",
             "experimental.theme_overrides": {
                "background.appearance": "transparent",
