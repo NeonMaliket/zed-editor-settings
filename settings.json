@@ -250,98 +250,25 @@
          "DYLD_LIBRARY_PATH": "/opt/homebrew/opt/pytorch/lib"
       },
    },
+   "auto_install_extensions": {
+      "dart": true,
+      "deno": true,
+      "flutter-snippets": true,
+      "git-firefly": true,
+      "html": true,
+      "java": true,
+      "java-eclipse-jdtls": true,
+      "material-icon-theme": true,
+      "mcp-server-context7": true,
+      "mcp-server-mui": true,
+      "mcp-server-playwright": true,
+      "sql": true,
+      "toml": true,
+      "vscode-dark-plus": true,
+      "transparent-prism-collection": true,
+      "xml": true
+   },
    "profiles": {
-      "Transparrent": {
-         "settings": {
-            "project_panel": {
-               "sticky_scroll": false,
-            },
-            "theme": "Transparent Prism - Frost",
-            "experimental.theme_overrides": {
-               "background.appearance": "transparent",
-               "elevated_surface.background": "#2e2e2e90",
-               "panel.overlay_background": "#ddddff40",
-               "ghost_element.hover": "#ffffff14",
-               "ghost_element.active": "#ffffff26",
-               "ghost_element.selected": "#0000004d",
-               "element.hover": "#ffffff15",
-               "modified": "#b8a04a",
-               "created": "#6a9955",
-               "syntax": {
-                  "string": {
-                     "color": "#6a9955",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "property": {
-                     "color": "#6ec5ff",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "keyword": {
-                     "color": "#6388d4",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "function": {
-                     "color": "#ffc400",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "variable": {
-                     "color": "#d6d6d6",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "operator": {
-                     "color": "#b35204",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "type": {
-                     "color": "#02b576",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "comment": {
-                     "font_style": "italic",
-                  },
-                  "comment.doc": {
-                     "font_style": "italic",
-                  },
-                  "attribute": {
-                     "color": "#02b047",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "punctuation.markup": {
-                     "color": "#d07277ff",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "punctuation.special": {
-                     "color": "#b1574bff",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "punctuation.bracket": {
-                     "color": "#e0bc43",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "punctuation.delimiter": {
-                     "color": "#e0bc43",
-                     "font_style": null,
-                     "font_weight": null,
-                  },
-                  "blur_effects": {
-                     "background_color": "#212121B5",
-                     "color": "#00000000",
-                  },
-               },
-            },
-         }
-      },
       "Common": {
          "settings": {
             "theme": "VScode Dark Plus",
@@ -418,24 +345,104 @@
                },
             },
          }
+      },
+      "Transparrent": {
+         "settings": {
+            "project_panel": {
+               "sticky_scroll": false,
+            },
+            "theme": "Transparent Prism - Frost",
+            "experimental.theme_overrides": {
+               "background.appearance": "transparent",
+               "elevated_surface.background": "#2e2e2e90",
+               "panel.overlay_background": "#ddddff40",
+               "ghost_element.hover": "#ffffff14",
+               "ghost_element.active": "#ffffff26",
+               "ghost_element.selected": "#0000004d",
+               "element.hover": "#ffffff15",
+               "modified": "#b8a04a",
+               "created": "#6a9955",
+               "players": [
+                  {
+                     "cursor": "#e5c07b",
+                     "background": "#61afefff",
+                     "selection": "#3e68d466"
+                  }
+               ],
+               "syntax": {
+                  "string": {
+                     "color": "#6a9955",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "property": {
+                     "color": "#6ec5ff",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "keyword": {
+                     "color": "#6388d4",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "function": {
+                     "color": "#ffc400",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "variable": {
+                     "color": "#d6d6d6",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "operator": {
+                     "color": "#b35204",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "type": {
+                     "color": "#02b576",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "comment": {
+                     "font_style": "italic",
+                  },
+                  "comment.doc": {
+                     "font_style": "italic",
+                  },
+                  "attribute": {
+                     "color": "#02b047",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "punctuation.markup": {
+                     "color": "#d07277ff",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "punctuation.special": {
+                     "color": "#b1574bff",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "punctuation.bracket": {
+                     "color": "#e0bc43",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "punctuation.delimiter": {
+                     "color": "#e0bc43",
+                     "font_style": null,
+                     "font_weight": null,
+                  },
+                  "blur_effects": {
+                     "background_color": "#212121B5",
+                     "color": "#00000000",
+                  },
+               },
+            },
+         }
       }
-   },
-   "auto_install_extensions": {
-      "dart": true,
-      "deno": true,
-      "flutter-snippets": true,
-      "git-firefly": true,
-      "html": true,
-      "java": true,
-      "java-eclipse-jdtls": true,
-      "material-icon-theme": true,
-      "mcp-server-context7": true,
-      "mcp-server-mui": true,
-      "mcp-server-playwright": true,
-      "sql": true,
-      "toml": true,
-      "vscode-dark-plus": true,
-      "transparent-prism-collection": true,
-      "xml": true
    }
 }
