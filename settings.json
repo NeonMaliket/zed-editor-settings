@@ -1,4 +1,9 @@
 {
+   "instrumentation": {
+      "performance_profiler": {
+         "enabled": false
+      }
+   },
    "diff_view_style": "unified",
    "disable_ai": false,
    "show_completions_on_input": true,
@@ -353,6 +358,9 @@
             },
             "theme": "Transparent Prism - Frost",
             "experimental.theme_overrides": {
+               "panel.background": "#21212100",
+               "element.background": "#21212100",
+               "terminal.background": "#2e2e2e00",
                "background.appearance": "transparent",
                "elevated_surface.background": "#2e2e2e90",
                "panel.overlay_background": "#ddddff40",
