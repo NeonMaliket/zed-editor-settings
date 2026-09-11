@@ -1,33 +1,52 @@
 [
    {
-      "label": "[0] - Run (cargo fix)",
-      "command": "cargo",
-      "args": [
-         "fix",
-         "--allow-dirty",
-         "--allow-staged"
-      ]
+      "label": "[0] Flutter Analize",
+      "command": "flutter analyze",
    },
    {
-      "label": "[1] - Run (cargo run)",
-      "command": "cargo",
-      "args": [
-         "run"
-      ]
+      "label": "[1] - Run Flutter",
+      "command": "flutter analyze && flutter run --enable-flutter-gpu --enable-impeller",
    },
    {
-      "label": "[2] - Build (debug)",
-      "command": "cargo",
-      "args": [
-         "build"
-      ]
-   },
-   {
-      "label": "[3] - Build (release)",
-      "command": "cargo",
+      "label": "[5] - Build iOS",
+      "command": "flutter",
       "args": [
          "build",
+         "ios",
          "--release"
       ]
+   },
+   {
+      "label": "[7] - Flutter Clean",
+      "command": "flutter",
+      "args": [
+         "clean"
+      ]
+   },
+   {
+      "label": "[8] - Pub Get",
+      "command": "flutter",
+      "args": [
+         "pub",
+         "get"
+      ]
+   },
+   {
+      "label": "[gen] - build_runner watch",
+      "command": "dart run build_runner watch --delete-conflicting-outputs",
+      "use_new_terminal": false,
+      "allow_concurrent_runs": false,
+      "reveal": "always"
+   },
+   {
+      "label": "[upgrade] - Flutter Pub Upgrade",
+      "command": "flutter pub upgrade --major-versions --dry-run",
+   },
+   {
+      "label": "[fluttergen] - fluttergen",
+      "command": "fluttergen",
+      "use_new_terminal": false,
+      "allow_concurrent_runs": false,
+      "reveal": "always"
    }
 ]
