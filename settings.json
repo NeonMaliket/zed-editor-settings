@@ -35,7 +35,9 @@
    "agent_servers": {
       "claude-acp": {
          "default_config_options": {
-            "model": "claude-fable-5[1m]",
+            "effort": "high",
+            "fast": false,
+            "model": "claude-fable-5-1[1m]",
             "mode": "bypassPermissions"
          },
          "type": "registry"
@@ -46,10 +48,10 @@
    "soft_wrap": "prefer_line",
    "show_wrap_guides": true,
    "git_panel": {
+      "folder_indicator": "icon",
       "collapse_untracked_diff": false,
       "tree_view": false,
       "diff_stats": true,
-      "folder_icons": true,
       "dock": "left",
       "show_count_badge": true,
    },
@@ -362,11 +364,13 @@
                "element.background": "#21212100",
                "terminal.background": "#2e2e2e00",
                "background.appearance": "transparent",
-               "elevated_surface.background": "#2e2e2e90",
+               "elevated_surface.background": "#2e2e2ee6",
                "panel.overlay_background": "#ddddff40",
                "ghost_element.hover": "#ffffff14",
                "ghost_element.active": "#ffffff26",
-               "ghost_element.selected": "#0000004d",
+               "ghost_element.selected": "#ffffff40",
+               "element.selected": "#ffffff40",
+               "panel.focused_border": "#fce56680",
                "element.hover": "#ffffff15",
                "modified": "#b8a04a",
                "created": "#6a9955",
