@@ -12,6 +12,13 @@
    "disable_ai": false,
    "show_completions_on_input": true,
    "cli_default_open_behavior": "existing_window",
+   "file_types": {
+      "Helm": [
+         "**/templates/**/*.tpl",
+         "**/templates/**/*.yaml",
+         "**/templates/**/*.yml"
+      ]
+   },
    "project_panel": {
       "diagnostic_badges": false,
       "scrollbar": {
@@ -106,6 +113,12 @@
       },
    },
    "languages": {
+      "Helm": {
+         "language_servers": [
+            "helm",
+            "!yaml-language-server"
+         ]
+      },
       "Dart": {
          "show_edit_predictions": false,
          "code_actions_on_format": {
@@ -159,6 +172,15 @@
       "current_line_highlight": "line",
    },
    "lsp": {
+      "helm": {
+         "settings": {
+            "helm-ls": {
+               "yamlls": {
+                  "enabled": false
+               }
+            }
+         }
+      },
       "rust-analyzer": {
          "enable_lsp_tasks": true,
          "initialization_options": {
